@@ -14,7 +14,6 @@ RSpec.describe "POST /api/articles/:id", type: :request do
     end
 
     it 'returns comment on article' do
-      #get the comment from article
     end
   end
 end
