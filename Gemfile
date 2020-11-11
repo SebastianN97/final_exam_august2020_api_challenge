@@ -13,6 +13,7 @@ gem 'puma', '~> 3.7'
 gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
+  gem 'devise_token_auth'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'rspec-rails'
